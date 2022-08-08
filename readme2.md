@@ -1,11 +1,11 @@
 # Live class from iNeuron
 
 ![Live-class](https://img.shields.io/badge/Live--class-Sunday-green)
+![iNeuron](https://img.shields.io/badge/-iNeuron-blueviolet)
 ![Git](https://img.shields.io/badge/-Git-brightgreen)
 ![GitHub](https://img.shields.io/badge/-GitHub-blue)
 ![Netlify](https://img.shields.io/badge/-Netlify-yellowgreen)
 ![Vercel](https://img.shields.io/badge/-Verel-red)
-![iNeuron](https://img.shields.io/badge/-iNeuron-blueviolet)
 
 ## Class about Git, Github and hosting websites
 
