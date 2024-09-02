@@ -173,7 +173,7 @@ console.log(sum);
 
 [Markdown course](/2024-09-02/markdown-course/example.md)
 
-To vist zomato, <a href="https://www.zomato.com/">clck here</a>.
+To vist zomato, <a href="https://www.zomato.com/">click here</a>.
 
 ### Links without text
 
@@ -290,7 +290,7 @@ Backend technologies -
 
 | ID  | Username       | Email                    | Phone      |
 | --- | -------------- | ------------------------ | ---------- |
-| 1   | Shubham Purwar | shubhampurwar35@gmai.com | 9897887871 |
+| 1   | Shubham Purwar | shubhampurwar35@gmail.com | 9897887871 |
 | 2   | Kunal Shah     | kunalcred20@gmail.com    | 8171617090 |
 | 3   | Kailash Nadh   | nadh0dha_cto@gmail.com   | 7890987871 |
 
@@ -309,3 +309,14 @@ Backend technologies -
 |  Suyash  | 21  |     No     |
 | Sandeep  | 57  |    Yes     |
 | Sangeeta | 52  |     No     |
+
+## Checklist
+
+- [X] Checked
+- [ ] Unchecked
+
+<br>
+
+- [X] Male
+- [ ] Female
+- [ ] Other
