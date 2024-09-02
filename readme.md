@@ -1,186 +1,311 @@
-# Heading 1
+# Markdown
 
-## Heading 2
+![static-badge](https://img.shields.io/badge/syntax-markdown-red?style=flat)
+![static-badge](https://img.shields.io/badge/version-1.0.0-blue?style=flat)
+![static-badge](https://img.shields.io/badge/status-success-limegreen?style=flat)
 
-### Heading 3
+## Table of contents
 
-#### Heading 4
+1.  [Headings](#headings)
+2.  [Paragraphs](#paragraphs)
+3.  [Text Formatting](#text-formatting)
+    - [Italic text](#italic-text)
+    - [Bold text](#bold-text)
+    - [Bold and Italic text](#bold-and-italic-text)
+    - [Strikethrough text](#strikethrough-text)
+    - [Underlined text](#underlined-text)
+    - [Smaller text](#smaller-text)
+    - [Superscript and Subscript](#superscript-and-subscript)
+    - [Highlighted text](#highlighted-text)
+4.  [Emojis](#emojis)
+5.  [Inline Code](#inline-code)
+6.  [Code blocks](#code-blocks)
+7.  [Links](#links)
+    - [Links with text](#links-with-text)
+    - [Links without text](#links-without-text)
+    - [Image as a link](#image-as-a-link)
+    - [Links within document](#links-within-document)
+8.  [Images](#images)
+9.  [Blockquotes](#blockquotes)
+10. [Horizontal rule](#horizontal-rule)
+11. [Lists](#lists)
+    - [Ordered list](#ordered-list)
+    - [Unordered list](#unordered-list)
+12. [Tables](#tables)
 
-**Bold Text**
+## Headings
 
-**Bold text**
+### Heading 1
 
-## **Bold heading**
+#### Heading 2
 
-_Italic Text_
+Headings can also be created using HTML tags
 
-_Italic Text_
+<h5>Heading 3</h5>
+<h6>Heading 4</h6>
 
-## _Italic Heading_
+## Paragraphs
 
-**_Bold Italic Text_**
+This is first paragraph.
 
-## **_Bold Italic Heading_**
+Another paragraph on a second line.
 
-~~For strike-through~~
+HERE  
+comes a new line within the third paragraph  
+because of double spaces.  
+This is a multiline paragraph.
 
-## Used for prices
+<p>Paragraphs can also be created using HTML tags</p>
 
-~~999~~ 699
+## Text Formatting
 
-No character for normal paragraph
+### Italic Text
 
----
+_This is an italicized text_
 
-## Ordered Lists
+<i>Text italicized using HTML tags</i>
 
-1. HTML
-2. CSS
-3. JavaScript
+_Use as**teris**ks for mid w**or**d b**oldin**g_
 
-### Nested ordered lists
+### Bold text
 
-1. CSS frameworks
+**This is a bold text**
 
-   1. Bootstrap
-   2. Tailwind CSS
+<b>Text made bold using HTML tags</b>
 
-2. JS framworks
+**Use a*sterisk*s for mid w*or*d i*talic*s**
 
-   1. Angular
-   2. Vue
+### Bold and Italic text
 
-## Unordered lists
+**_This is a bold italicized text_**
 
-- one
-- two
-- three
-- four
+<b><i>Text made bold and italicized using HTML tags</i></b>
 
-## **Nested Lists**
+### Strikethrough text
 
----
+~~Crossed off text~~
 
-## 1. Shubham
+~~Deleted text~~
 
-- Coder
-- VIT
-- Etawah
+Text <del>strikethrough</del> using HTML tags
 
-## 2. Suyash
+### Underlined text
 
-- Coder
-- LPU
-- Punjab
+<ins>Text underlined using HTML tags</ins>
 
-- Cool
-  - Hot
-  - Warm
+### Smaller text
 
-## **For links**
+This text is <small>smaller</small> in size than normal text
 
----
+### Superscript and Subscript
 
-[Home](https://www.lco.dev "LCO")
+This is a <sup>superscript</sup> text
 
-[Youtube](https://www.youtube.com "Youtube")
+This is a <sub>subscript</sub> text
 
-[My Github](https://github.com/purwar1997 "Shubham Purwar")
+### Highlighted text
 
-# My Websites
+<mark>Text highlighted using HTML tags</mark>
 
-Here are my portfolio websites
+## Emojis
 
-- [**LearnCodeOnline**](https://www.lco.dev)
+To add an emoji in Markdown, just copy and paste it - 😊 ❤️ 😻
 
-- [**iNeuron**](https://ineuron.ai/)
+## Inline Code
 
-- [**Coder Community**](https://coder.com/community)
+`Text highlighted using backticks`
 
-## **To insert images**
+`Can also be used for inline code`
 
----
+To create variables in JavaScript language, we can use keywords like `var`, `let` and `const`.
 
-![Brand Logo](./img/logo.png)
+To assign a value in variable, use expression `var x = 10`.
 
-![Google play](./img/google-play-badge.png)
-
-![GeeksForGeeks](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiskq6uHR_nlUGFkFmsdNAmSiR_1shiLz3fw&usqp=CAU)
-
-![Mascot](https://learncodeonline.in/mascot.png)
-
----
-
-## **To insert code snippets**
-
-To insert keywords, use ``
-
-In Javascript, `for` and `const` are keywords.
-
-```javascript
-for (const i in [12, 67, 90]) {
-  console.log(i + 1);
-}
-```
-
-> **Output** : 13 68 100
-
-Here `let` is a keyword and `a` and `b` are variables.
-
----
-
-```javascript
-let sum = (a, b) => console.log(a + b);
-sum(12, 1);
-```
-
-> **Output** : 13
-
-`body` and `h1` are HTML tags.
-
----
+## Code Blocks
 
 ```html
-<body>
-  <h1>Heading</h1>
-</body>
+<!-- This is HTML code -->
+
+<h1>Large heading</h1>
+<p>This is a paragraph</p>
+<b>Bold text</b>
 ```
 
-Here, `body` is a `CSS` `selector`.
-
----
-
 ```css
+/* This is CSS code */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
 body {
-  background: linear-gradient(to right, #4c3ae3, #51e1ed);
-  font-family: "Montserrat";
-  color: #ffffff;
-  min-height: 100vh;
-  font-size: 20px;
-  font-weight: 600;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.link {
+  text-decoration: none;
 }
 ```
 
-This is a `Python` code.
+```js
+// This is JavaScript code
 
----
+const value1 = 23;
+const value2 = 4;
+const sum = value1 + value2;
 
-```python
-a = 20;
-b = 20;
-print(a+b);
+console.log(sum);
 ```
 
-> **Output** : 40
+## Links
 
-## **For Backquotes**
+### Links with text
+
+[This is a Youtube link](https://www.youtube.com/)
+
+[Visit my GitHub profile](https://github.com/purwar1997)
+
+[Python course](/2024-09-02/python-course/loops.py)
+
+[Markdown course](/2024-09-02/markdown-course/example.md)
+
+To vist zomato, <a href="https://www.zomato.com/">clck here</a>.
+
+### Links without text
+
+<https://github.com/purwar1997/shopify-website-clone>
+
+https://chatgpt.com
+
+### Image as a link
+
+<a href="https://www.swiggy.com"><img src="https://res.cloudinary.com/dlqnx5pot/image/upload/v1725280341/images_jpyctl.png" width="170px" /></a>
+
+<a href="http://shopease.shubhampurwar.in"><img src="https://res.cloudinary.com/dlqnx5pot/image/upload/v1724768982/shopease-logo-white_jz62c3.svg" width="170"></a>
+
+### Links within document
+
+[Go to Headings](#headings)
+
+[Go to Paragraphs](#paragraphs)
+
+## Images
+
+![Shopease logo](https://res.cloudinary.com/dlqnx5pot/image/upload/v1724768966/shopease-logo_a9ayl7.svg)
+
+![Google logo](/logos/google.png)
+
+Images can also be added using HTML tags
+
+<img src="https://res.cloudinary.com/dlqnx5pot/image/upload/v1724768982/shopease-logo-white_jz62c3.svg" width="200">
+
+## Blockquotes
+
+> This is a blockquote
+>
+> > This is a nested blockquote
+> >
+> > > This is a doubly nested blockquote
+
+<br>
+
+> What is markdown?
+>
+> > Markdown files ends with .md extension. Markdown syntax is used to create README files of projects. In markdown files, we can use HTML tags to define content like headings and paragraphs.
+
+## Horizontal Rule
+
+Above horizontal rule
 
 ---
 
-> Use this for code output
+Between horizontal rules
 
-> Backquote 1
+---
 
-> Hello, coders
+Between horizontal rules
 
-> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore quasi nam nesciunt harum quos ipsum, expedita consequuntur aliquam dignissimos sed nulla quaerat voluptatibus. Esse numquam aspernatur delectus nihil impedit! Natus?
+---
+
+Below horizontal rule
+
+## Lists
+
+### Ordered List
+
+- HTML
+- CSS
+- JavaScript
+- DOM Manipulation
+- Frameworks
+  - React
+    - Components
+    - JSX
+    - Hooks
+    - State management
+    - Routing
+  - Angular
+  - Vue
+  - Svelte
+  - Quik
+- Version control
+
+  - Git
+  - Bitbucket
+
+### Unordered List
+
+Backend technologies -
+
+1. Databases
+
+   1. MySQL
+   2. PostgreSQL
+   3. Clickhouse
+
+2. Runtime environments
+
+   1. Node.js
+   2. Deno.js
+   3. Bun.js
+      1. New kid in the town
+      2. Faster than alternatives
+
+3. Frameworks
+
+   1. Express.js
+      1. Easy to use
+      2. Supports all HTTP methods
+      3. Comes with middleware support
+      4. Able to parse JSON payload
+      5. Able to parse urlencoded data
+   2. Hapi.js
+   3. Nest.js
+
+## Tables
+
+| ID  | Username       | Email                    | Phone      |
+| --- | -------------- | ------------------------ | ---------- |
+| 1   | Shubham Purwar | shubhampurwar35@gmai.com | 9897887871 |
+| 2   | Kunal Shah     | kunalcred20@gmail.com    | 8171617090 |
+| 3   | Kailash Nadh   | nadh0dha_cto@gmail.com   | 7890987871 |
+
+<br>
+
+| Left                |        Center         |                Right |
+| :------------------ | :-------------------: | -------------------: |
+| First item on left  | First item in center  |  First item on right |
+| Second item on left | Second item in center | Second item on right |
+
+<br>
+
+|   Name   | Age | Vaccinated |
+| :------: | :-: | :--------: |
+| Shubham  | 26  |    Yes     |
+|  Suyash  | 21  |     No     |
+| Sandeep  | 57  |    Yes     |
+| Sangeeta | 52  |     No     |
